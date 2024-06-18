@@ -1,0 +1,32 @@
+.search-bar {
+    border: solid 1px #ccc;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;justify-content: space-between;
+    padding: 5px 10px;
+    margin: 100px auto;
+}
+
+.search-bar:focus-within {
+    border: solid 1px #aaa;
+    box-shadow: 0px 2px 5px rgba(35, 35, 36, 0.2);
+}
+.search-bar input {
+    border: none;
+    outline: none;
+    pad:10px;
+    font-size: 18px;
+}
+
+.search-bar .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar .actions button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
